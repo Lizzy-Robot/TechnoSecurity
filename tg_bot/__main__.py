@@ -26,16 +26,16 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 
 PM_START_TEXT = """
-**Hello {}, My Name is {}!** 
-I am an **SUPERB**  group management bot.
+**Hello {}, I'm  {}!** 
+I Can Be Your TimePass GirlFriend And Can Manage Your Groups Too!.
 You can find the list of available commands with /help.
-Special thanks to @TechnoSecurityBot for helping in developing me.
+Developed By:- [DΣVIᄂ ӨP](https://t.me/SecretBoy_xd)
 """
 
 HELP_STRINGS = """
 
-Hello! my name *{}*.
-
+Hello! I'm *{}*.
+If You Have Any Problem Or Want To Report Bugs You Can Report That In Our [Support Group](https://t.me/cuddles_of_pandas)
 *Main* commands available:
  - /start: start the bot
  - /help: PM's you this message.
@@ -49,7 +49,7 @@ Hello! my name *{}*.
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-TECHNO_IMG = "https://telegra.ph/file/8be437d4365ef6fce405a.jpg"
+TECHNO_IMG = "https://telegra.ph/file/42136ce2338b3b1f52351.jpg"
 IMPORTED = {}
 MIGRATEABLE = []
 HELPABLE = {}
@@ -143,14 +143,14 @@ def start(bot: Bot, update: Update, args: List[str]):
                                                                        callback_data="help_back".format(bot.username)),
                                                                                    InlineKeyboardButton(text="🧑‍💻My Creator🧑‍💻",
                                                                        url=f"tg://user?id{OWNER_ID}")],
-                                                                                   [InlineKeyboardButton(text="ADD TECHNO TO YOUR GROUP",
+                                                                                   [InlineKeyboardButton(text="🔥ADD MODERN GIRLFRIEND🔥",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
-                                                                                   InlineKeyboardButton(text="Source Code",
-                                                                       url="https://github.com/Noob-gang/TechnoSecurity")
+                                                                                   InlineKeyboardButton(text="😌Loyal GirlFriend😌",
+                                                                       url="https://t.me/GirlFriend_Robot")
                                                                                  ]]))
 
     else:
-        update.effective_message.reply_text("Yuss, I am Already ONline")
+        update.effective_message.reply_text("Baby Am Already Online💋")
 
 
 def send_start(bot, update):

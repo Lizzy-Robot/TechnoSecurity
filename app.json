@@ -33,11 +33,11 @@
       },      
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
-         "value": "123"
+         "value": "1712684014"
       },
       "OWNER_USERNAME": {
          "description": "Your username",
-         "value": "username"
+         "value": "@SecretBoy_xd"
       },
       "DEV_USERS": {
          "description": "ID of users who are Dev (can use /py etc.)",
@@ -46,7 +46,7 @@
       },
       "GBAN_LOGS": {
          "description": "Gban log channel, include the hyphen too: ex: -123456",
-         "value": "-123"
+         "value": "-1001431407613"
       },
       "CASH_API_KEY": {
          "description": "Required for currency converter",
@@ -90,7 +90,7 @@
       },
       "URL": {
          "description": "The Heroku App URL :-  https://<appname>.herokuapp.com/",
-         "required": false,
+         "required": true,
          "value": ""
       },
       "WEBHOOK": {
@@ -110,7 +110,7 @@
       "manager",
       "bot"
    ],
-   "logo": "https://telegra.ph/file/8be437d4365ef6fce405a.jpg",
-   "name": "Noob",
-   "repository": "https://github.com/leobrownlee/phantom"
+   "logo": "https://telegra.ph/file/42136ce2338b3b1f52351.jpg",
+   "name": "Modern GirlFriend",
+   "repository": "https://github.com/Lizzy-Robot/TechnoSecurity"
 }

@@ -120,7 +120,7 @@ def new_member(bot: Bot, update: Update, job_queue: JobQueue):
 
             # Welcome yourself
             elif new_mem.id == bot.id:
-                update.effective_message.reply_text("hello 😎")
+                update.effective_message.reply_text("Hello 😎")
 
             else:
                 # If welcome message is media, send with appropriate function
@@ -277,7 +277,7 @@ def left_member(bot: Bot, update: Update):
 
             # Give the devs a special goodbye
             elif left_mem.id in DEV_USERS:
-                update.effective_message.reply_text("See you later at the Hero's Association!")
+                update.effective_message.reply_text("See you Later At Our Support Group!!")
                 return
 
             # if media goodbye, use appropriate function for it
